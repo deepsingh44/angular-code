@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+.login-form {
+    position: relative;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background: white; /* White background for form */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff; /* Primary color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logo {
+    background-image: url('../assets/images/back.jpeg');
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
